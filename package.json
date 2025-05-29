@@ -1,0 +1,27 @@
+{
+  "name": "nodejs_learn",
+  "version": "1.0.0",
+  "description": "\"Learning nodejs\"",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm test",
+    "dev": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alizeba11323/nodejs-learn.git"
+  },
+  "keywords": [
+    "NODE",
+    "LEARNING"
+  ],
+  "author": "Zeba Ali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alizeba11323/nodejs-learn/issues"
+  },
+  "homepage": "https://github.com/alizeba11323/nodejs-learn#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
