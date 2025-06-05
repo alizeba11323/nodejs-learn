@@ -27,5 +27,20 @@ console.log(path.resolve("app", "index.js"));
 
 console.log(path.parse(__filename));
 
+// format
+
+console.log(
+  path.format({
+    root: "C:\\",
+    dir: "C:\\Users\\sutan\\OneDrive\\Desktop\\nodejs_learn",
+    base: "pathModule.js",
+    ext: ".js",
+    name: "pathModule",
+  })
+);
 // normalize
 console.log(path.normalize("/users/admin/./index.js"));
+
+// isAbsolute
+
+console.log(path.isAbsolute("/users/index.js"));
