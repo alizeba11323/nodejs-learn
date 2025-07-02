@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "npm test",
-    "dev": "node pathModule.js"
+    "dev": "node pathModule.js",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/alizeba11323/nodejs-learn#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "nodemon": "^3.1.10"
   }
 }
